@@ -1,5 +1,5 @@
 import unittest
-import generator
+from application import generator
 
 
 def test_sample_single_word():
