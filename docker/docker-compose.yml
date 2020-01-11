@@ -1,0 +1,11 @@
+version: "3"
+services:
+  buzz:
+    build:
+      context: .
+      args:
+        - PROXY=http://host.docker.internal:3128
+    volumes:
+      - ..:/opt/buzz
+    environment:
+      - secret

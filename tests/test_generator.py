@@ -1,4 +1,3 @@
-import unittest
 from application import generator
 
 
